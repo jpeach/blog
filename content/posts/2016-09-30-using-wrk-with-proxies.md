@@ -6,22 +6,26 @@ featured_image: ""
 description: ""
 ---
 
-Based on [this](http://atodorov.org/blog/2014/11/18/proxy-support-for-wrk-http-benchmarking-tool/) extremely helpful post, a slight extension to make it easier to use [wrk](https://github.com/wg/wrk) with a HTTP proxy.
+Based on
+[this](http://atodorov.org/blog/2014/11/18/proxy-support-for-wrk-http-benchmarking-tool/)
+extremely helpful post, a slight extension to make it easier to use
+[wrk](https://github.com/wg/wrk) with a HTTP proxy.
 
-    url = ''
-    host = ''
+```lua
+url = ''
+host = ''
 
-    init = function(args)
-        url = args[1] -- proxy needs absolute URL
+init = function(args)
+    url = args[1] -- proxy needs absolute URL
 
-        -- Capture the
-        _, _, host = string.find(url, 'http://([^/]+)/')
-    end
-    
-    request = function()
-        return wrk.format("GET", url, { Host = host })
-    end
+    -- Capture the hostname from the target URL.
+    _, _, host = string.find(url, 'http://([^/]+)/')
+end
 
+request = function()
+    return wrk.format("GET", url, { Host = host })
+end
+```
 
 Usage is like this:
 
