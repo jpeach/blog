@@ -1,0 +1,28 @@
+baseURL: 'http://blog.jpeach.org/'
+languageCode: 'en-US'
+title: 'James has a blog'
+theme: 'whiteplain'
+copyright: 'Copyright &copy; James Peach 2015-2023'
+
+permalinks:
+  posts: /posts/:year/:month/:title/
+
+params:
+  author:
+    name: "James Peach"
+    github: "jpeach"
+
+menu:
+  main:
+    - name: "Tags"
+      identifier: "tags"
+      url: "/tags/"
+      weight: 1
+    - name: "Archives"
+      identifier: "archives"
+      url: "/archives/"
+      weight: 2
+    - name: "About"
+      identifier: "about"
+      url: "/about/"
+      weight: 3
