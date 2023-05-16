@@ -1,5 +1,5 @@
 ---
-title: "Being Too Clever Merging Protobufs"
+title: "Being too clever merging protobufs"
 date: 2019-10-23T00:00:00+10:00
 tags: [go,protobuf]
 featured_image: ""
