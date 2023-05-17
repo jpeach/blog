@@ -12,6 +12,11 @@ params:
     name: "James Peach"
     github: "jpeach"
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Accept HTML in Markdown.
+
 menu:
   main:
     - name: "Tags"
