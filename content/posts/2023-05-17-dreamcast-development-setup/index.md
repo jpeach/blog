@@ -2,7 +2,7 @@
 title: "Dreamcast development setup"
 date: 2023-05-17T09:29:23+10:00
 subtitle: ""
-tags: [dreamcast,kallitios,development]
+tags: [dreamcast,kallistios,development]
 ---
 
 Way back in the last century, I bought a Sega Dreamcast. One of the
