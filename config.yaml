@@ -11,6 +11,7 @@ params:
   author:
     name: "James Peach"
     github: "jpeach"
+    avatar: "/avatar.jpg"
 
 markup:
   goldmark:
