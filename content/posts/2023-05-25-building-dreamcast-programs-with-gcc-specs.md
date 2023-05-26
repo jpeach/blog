@@ -14,7 +14,7 @@ not really a big issue to have all those environment variables, I wondered
 whether there was a cleaner approach.
 
 GCC has a [spec file](https://gcc.gnu.org/onlinedocs/gcc/Spec-Files.html)
-feature, which is a custom DSL hat describes how the compiler driver
+feature, which is a custom DSL that describes how the compiler driver
 should process flags for the various programs in the compilation
 toolchain. Since the KallistiOS compiler wrappers are basically injecting
 compiler flags, spec files seemed like a promising approach.
