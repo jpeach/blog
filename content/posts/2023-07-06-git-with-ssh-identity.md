@@ -1,5 +1,5 @@
 ---
-title: "Using a Specifc SSH Indentity with Git"
+title: "Using a Specifc SSH Identity with Git"
 date: 2023-07-06T12:35:31+10:00
 tags: [git,ssh]
 ---
