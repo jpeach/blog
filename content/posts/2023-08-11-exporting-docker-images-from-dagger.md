@@ -4,7 +4,7 @@ date: 2023-08-11T08:50:45+10:00
 tags: [docker,dagger,containers]
 ---
 
-I started using [Dagger](https://dagger.io/) which week, and if you
+I started using [Dagger](https://dagger.io/) this week, and if you
 have any sort of build and test system based on shell scripts and
 Dockerfiles, Dagger will be a big improvement.
 
